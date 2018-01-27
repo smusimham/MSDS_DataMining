@@ -16,7 +16,7 @@ like to use ROC curves to determine the prediction accuracy.
 
 Our scope started with 72 variables and 500,000 records across all states of america including Canada. We used scatter plots 
 with indicator variables for type of filing to determine most statistically significant variables. Per above exercise we could
-narrow down the list to 25 variables.
+narrow down the list of variables to 25. We then used random sampling to narrow down the records to 50,000.
 
 [1]http://www.nextgov.com/technology-news/2009/09/irs-continues-to-pay-millions-to-process-paper-tax-returns/44867/
 [2]https://www.irs.gov/newsroom/avoid-common-tax-filing-errors-irs-encourages-efiling-careful-review
