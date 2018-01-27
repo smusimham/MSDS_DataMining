@@ -26,33 +26,37 @@ narrow down the list of variables to 26. We then used random sampling to narrow 
 
 Following are the 26 selected variables.
 
-Field				Type		Description
-ein					Num			Employer Identification Number
-elf					Char		E-file indicator [Prediction variable]
-name				Char		Primary Name of Organization
-street				Char		In Care of Name
-city				Char		City
-state				Char		State
-zip					Char		ZIP
-affiliation			Num			Affiliation Code
-deductibility		Num			Deductibility Code signifies whether contributions made to an organization are deductible
-activity			Num			These are codes which reflect an organization's purposes, activities, operations, or type. From one to three activity 									codes may be in this field. Note: activity codes became obsolete with the adoption of the National Taxonomy of Exempt 									Entity (NTEE) coding system in January 1995. However, organizations determined to be exempt prior to that date will 									reflect the activity codes previously assigned. 
-organization		Num			Organization Code
-asset_cd			Num			Asset Codes relate to the book value amount of assets show 
-income_cd			Num			Income Codes relate to the amount of income shown on the most recent Form 990 
-filing_req_cd		Num			This indicates the primary return(s) the organization is required to file. 
-acct_pd				Num			This designates the accounting period or fiscal year ending date (Jan - Dec) of the organization (MM). 
-asset_amt			Num			Asset Amount is the Book Value Total Assets End of Year 
-revenue_amt			Num			Amount from Form 990 
-
-tax_pd				Char		Tax period
-subseccd			Char		Subsection code
-totrevnue			Num			Total revenue
-totliabend			Num			Total liabilities -- eoy
-filedf990tcd		Char		Form 990-T filed?
+Field				      Type		Description
+ein					      Num			Employer Identification Number
+elf					      Char		E-file indicator [Prediction variable]
+name				      Char		Primary Name of Organization
+street				    Char		In Care of Name
+city				      Char		City
+state				      Char		State
+zip				        Char		ZIP
+affiliation			  Num			Affiliation Code
+deductibility		  Num			Deductibility Code signifies whether contributions made to an organization are deductible
+activity			    Num			These are codes which reflect an organization's purposes, activities, operations, or type. From one               
+                          to three activity codes may be in this field. Note: activity codes became obsolete with the adoption      
+                          of the National Taxonomy of Exempt Entity (NTEE) coding system in January 1995. However, 
+                          organizations determined to be exempt prior to that date will reflect the activity codes previously 
+                          assigned. 
+organization		  Num			Organization Code
+asset_cd			    Num			Asset Codes relate to the book value amount of assets show 
+income_cd			    Num			Income Codes relate to the amount of income shown on the most recent Form 990 
+filing_req_cd		  Num			This indicates the primary return(s) the organization is required to file. 
+acct_pd				    Num			This designates the accounting period or fiscal year ending date (Jan - Dec) of the organization 
+                          (MM). 
+asset_amt			    Num			Asset Amount is the Book Value Total Assets End of Year 
+revenue_amt			  Num			Amount from Form 990 
+tax_pd				    Char		Tax period
+subseccd			    Char		Subsection code
+totrevnue			    Num			Total revenue
+totliabend			  Num			Total liabilities -- eoy
+filedf990tcd		  Char		Form 990-T filed?
 gftgrntsrcvd170		Num			Gifts grants membership fees received (170)
 grsrcptsrelated170	Num			Gross receipts from related activities (170)
 exceeds1pct509		Num			Amount support exceeds total (509)
-grsinc509			Num			Gross income from interest etc (509)
+grsinc509			    Num			Gross income from interest etc (509)
 
 #######################################
